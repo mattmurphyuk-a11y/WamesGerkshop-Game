@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cm3uwhtj4r1wx"]
+
+[ext_resource type="Texture2D" uid="uid://dwh08pxfw5s1b" path="res://tilemap/ChefSheet.png" id="1_f2di1"]
+
+[node name="ChefSheet" type="Sprite2D" unique_id=1287074296]
+position = Vector2(525, 184)
+texture = ExtResource("1_f2di1")
+hframes = 18
