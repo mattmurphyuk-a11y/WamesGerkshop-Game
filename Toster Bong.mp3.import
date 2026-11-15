@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d00aflqhehol8"
+path="res://.godot/imported/Toster Bong.mp3-85a08796dde00af81833c81424b99558.mp3str"
+
+[deps]
+
+source_file="res://Toster Bong.mp3"
+dest_files=["res://.godot/imported/Toster Bong.mp3-85a08796dde00af81833c81424b99558.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

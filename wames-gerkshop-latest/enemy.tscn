@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://yffij0ghaoa5"]
+
+[ext_resource type="Script" uid="uid://c6eo8auughmex" path="res://area_2d.gd" id="1_qi2p4"]
+[ext_resource type="Texture2D" uid="uid://e6x7uamg4ra3" path="res://PixelArt/burnt Toast .png" id="2_iifgy"]
+[ext_resource type="Texture2D" uid="uid://gw28kxkrt2px" path="res://PixelArt/toast .png" id="3_epg4t"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ogm8w"]
+size = Vector2(13, 11)
+
+[node name="enemy" type="Area2D" unique_id=1157703645]
+scale = Vector2(2.0496716, 3.0225527)
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_qi2p4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1969251872]
+position = Vector2(1.5, 0.5)
+shape = SubResource("RectangleShape2D_ogm8w")
+
+[node name="Dead" type="Sprite2D" parent="." unique_id=943202247]
+position = Vector2(6.4999995, 2.9999993)
+scale = Vector2(0.49000007, 0.5)
+texture = ExtResource("2_iifgy")
+
+[node name="Alive" type="Sprite2D" parent="." unique_id=1563241398]
+position = Vector2(8, 3)
+scale = Vector2(0.57, 0.48000002)
+texture = ExtResource("3_epg4t")

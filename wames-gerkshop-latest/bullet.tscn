@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dg2ww2hkqxw3u"]
+
+[ext_resource type="Texture2D" uid="uid://db4617alrnt6u" path="res://PixelArt/Toaster .png" id="2_t4vbm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ibpqq"]
+size = Vector2(156.08739, 84.55543)
+
+[node name="CharacterBody2D1" type="Area2D" unique_id=1773296429]
+position = Vector2(24, 64)
+collision_layer = 2
+collision_mask = 0
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=36288913]
+position = Vector2(0, 1.9073486e-06)
+scale = Vector2(0.31000003, 0.43499997)
+texture = ExtResource("2_t4vbm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2066246176]
+position = Vector2(-0.5, -3)
+scale = Vector2(0.09610001, 0.18922497)
+shape = SubResource("RectangleShape2D_ibpqq")

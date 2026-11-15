@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dwpehwrxked5q"
+path="res://.godot/imported/gcse free comp.mp3-ef59545e5aa9192f4d9f8f4e071d2d21.mp3str"
+
+[deps]
+
+source_file="res://gcse free comp.mp3"
+dest_files=["res://.godot/imported/gcse free comp.mp3-ef59545e5aa9192f4d9f8f4e071d2d21.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

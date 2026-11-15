@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://duqjapr8ex54m"]
+
+[ext_resource type="Script" uid="uid://biiys457ogc6g" path="res://lord_loaf.gd" id="1_6k0wc"]
+[ext_resource type="Texture2D" uid="uid://uer3t3enxkgn" path="res://PixelArt/lord loaf4.png" id="2_8a3ky"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ogm8w"]
+size = Vector2(19.193, 15.579901)
+
+[node name="LordLoaf" type="Area2D" unique_id=1252248362]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_6k0wc")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=199392521]
+scale = Vector2(2.3999996, 2.1999998)
+texture = ExtResource("2_8a3ky")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D" unique_id=1548431939]
+position = Vector2(6.2348757, 11.910103)
+scale = Vector2(2.1693544, 3.2794132)
+shape = SubResource("RectangleShape2D_ogm8w")
